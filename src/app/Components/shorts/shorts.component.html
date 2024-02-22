@@ -1,0 +1,9 @@
+<div class="carousel">
+    <div *ngFor="let item of carouselItems" class="carousel-item">
+        {{ item }}
+    </div>
+</div>
+<div class="carousel-controls">
+    <button class="btn btn-success m-2" (click)="slideUp()">Up</button>
+    <button class="btn btn-success m-2" (click)="slideDown()">Down</button>
+</div>

@@ -1,0 +1,17 @@
+.carousel {
+    height: 300px; /* Adjust the height as per your requirements */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+    display: none;
+  }

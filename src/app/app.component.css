@@ -1,0 +1,86 @@
+.has-search {
+  margin-left: 10%;
+  width: 50%;
+}
+
+.has-search .form-control {
+  padding-left: 4.375rem;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: -42px;
+}
+
+.mic{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+.search-hero {
+  max-width: 500px;
+  padding-bottom: 50px;
+  margin:auto;
+}
+
+.form-control::placeholder  {
+  font-family: FontAwesome;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  padding: 0.8%;
+  color: black;
+}
+
+.downBar {
+  display: none;
+}
+
+.navIcons {
+  position: absolute;
+  z-index: 2;
+  right: 0%;
+}
+
+@media (max-width: 768px) {
+  .has-search .form-control {
+    display: none;
+  }
+
+  .has-search .form-control-feedback {
+    padding: 1%;
+    position: absolute;
+    right: 15%;
+    height: 0%;
+    margin-top: -3%;
+  }
+  .toggle {
+    display: none;
+  }
+  .side {
+    display: none;
+  }
+  .downBar {
+    display: block;
+    position: fixed;
+    background-color: rgba(245, 245, 245, 255);
+    bottom: 0%;
+    z-index: 2;
+  }
+
+  .mic {
+    display: none;
+  }
+
+  .newIcon {
+    display: none;
+  }
+
+}
